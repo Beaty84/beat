@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    height: 100vh;
+    background-image: url('landing-page-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    cursor: pointer;
+}
