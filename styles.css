@@ -6,7 +6,8 @@ body, html {
 /* Landing Page Styles */
 .landing-page {
     height: 100vh;
-    background-image: url('landing-page-background.jpg');
+    /**background-image: url('landing-page-background.jpg');**/
+    background-color: black;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@ body, html {
 }
 
 .logo {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px;
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
     cursor: pointer;
 }
